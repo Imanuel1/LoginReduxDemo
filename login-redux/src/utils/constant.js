@@ -1,0 +1,2 @@
+export const userInitValue = { userName: "", phoneNumber: "", password: "", confirm: "" }
+export const validInitValue = { userName: false, phoneNumber: false, password: false, confirm: false, invisible: true }
