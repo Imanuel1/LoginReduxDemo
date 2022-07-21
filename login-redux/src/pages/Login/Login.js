@@ -14,6 +14,7 @@ export default function Login() {
 
   const { confirm, ...userData } = userDetails;
 
+
   const handleClick = (e) => {
     e.preventDefault();
     if (!Object.values(validFields).includes(false)) {
